@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Establece el fondo blanco*/
+    color: #333;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 120px auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.container :after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+}
+
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+h1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 100px;
+    justify-content: center;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 50px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #96B3F4;
+}
+
+.index-body footer {
+
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px; /* Ajustar este valor segun tu preferencia */
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    justify-content: center;
+    font-size: 40px;
+    border-bottom: 10px solid #333;
+    padding-bottom: 10px;
+}
+
+div.Bio img {
+    max-width: 14%;
+    height: auto;
+    display: block;
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.Bio {
+    max-width: 1200px;
+    max-width: 900px; /* Ajusta el ancho maximo segun tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /*Añade un espacio interno para mejorar la legibilidad */
+
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Ajustar este valor segun tu preferencia */
+    margin: 0; /*Ajusta este valor segun sea necesario */
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.Contacto img {
+    max-width: 14%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Contacto {
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Proyectos img {
+    max-width: 14%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Proyectos {
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Proyecto .texto {
+    height: 100vh; /* Ajusta según sea necesario para que sea más grande que la altura de la pantalla */
+    overflow-y: auto; /* Agrega scroll vertical solo al área de texto si es necesario */
+    max-height: calc(100vh - 40px); /* Resta los márgenes superior e inferior para ajustar la altura del área de texto */
+}
